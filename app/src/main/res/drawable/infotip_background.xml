@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#444444" /> <!-- Background color of the infotip -->
+            <corners android:radius="4dp" /> <!-- Rounded corners for the infotip -->
+        </shape>
+    </item>
+    <item android:top="1dp" android:left="1dp" android:right="1dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#a6d0f5" /> <!-- White border for the infotip -->
+            <corners android:radius="4dp" /> <!-- Rounded corners for the border -->
+
+        </shape>
+    </item>
+</layer-list>
